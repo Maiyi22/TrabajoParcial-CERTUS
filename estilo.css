@@ -1,0 +1,155 @@
+/* fuentes tipograficas */
+
+ @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Ubuntu:wght@300;400&display=swap');
+
+ /* diseño general */
+
+body { 
+    font-family: 'Ubuntu', sans-serif ;
+    margin: 0px;
+}
+
+/* encabezado */
+
+header {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: floralwhite ;
+    background-color: rgb(255, 123, 0);
+    background-image: url(img/hearder.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+header > h1 {
+    
+    font-size: 3em;
+    font-family: 'Alkatra', cursive;
+    margin: 0px;
+    text-align: center;
+}
+
+header > h2 {
+    font-size: 1.5em ;
+    margin: 0px;
+    text-align: center;
+   
+
+}
+/* navegacion */
+nav > ul {
+    margin: 0;
+    background-color: #1D594E ;
+    text-align: center;
+}
+
+nav > ul > li{
+    
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav > ul > li:hover{
+    
+   background-color: #F29F05;
+}
+
+nav > ul > li > a { 
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+/* notificacion */
+#notificacion{
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    background-color: #F2CB05;
+    font-size : 1.3em;
+    font-weight:bold ;
+
+
+}
+
+
+
+/* cuerpo principal */
+main{
+max-width: 1320px;
+margin-left: auto;
+margin-right: auto;
+background-color: papayawhip;
+}
+
+/* seccion de catalogos */
+section#catalogo {
+    text-align: center;
+   
+}
+
+/* articulos */
+article{
+    width: 24%;
+    max-width: 300px;
+    min-width: 200px;
+    display: inline-block;
+    margin: 08px;
+    border: 4px rgb(252, 252, 252) solid ;
+    background-color: #fff;
+    padding: 16px;
+    box-sizing: border-box;
+   
+}
+.imgProduct {
+width: 100%;
+}
+
+.precioOriginal{
+    font-size: 1.5em;
+    color: burlywood;
+    text-decoration: line-through;
+
+}
+.precioDescuento{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.precioFinal{
+    font-size: 2em;
+    color: firebrick;
+    font-weight: bold;
+
+}
+
+article > p{
+
+ line-height: 180%;
+
+}
+
+
+footer{
+	background-color: #F29F05;
+    text-align: center;
+    
+}
+footer p {
+	color: white;
+	margin: 20px;
+    text-align: center;	
+    
+}
+footer img {
+
+	margin: 10px;
+    max-width: 40px;
+    min-width: 40px;
+    display: inline-block;
+    
+	
+}
